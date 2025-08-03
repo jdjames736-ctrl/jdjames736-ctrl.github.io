@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jenish Karki | DEVER</title>
+  <link rel="stylesheet" href="stands.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <h1>DEVER</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>Hi, I'm <span class="highlight">Jenish Karki</span></h2>
+    <p>Tech Explorer | Gamer | Future Developer</p>
+    <button onclick="revealHandles()">🎮 Show My Game Handles</button>
+    <p id="handles" class="hidden"></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Jenish, a boy from a middle-class family in Nepal. I enjoy video games, tech-related work, making websites, and building games. I go by the tech name <strong>DEVER</strong> and dream of becoming a software or game developer.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills I’m Learning</h2>
+    <div class="grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>Java</div>
+      <div>Unity</div>
+      <div>Public Speaking</div>
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <div class="grid">
+      <div>Gaming</div>
+      <div>Drawing</div>
+      <div>Reading</div>
+      <div>Quizzes</div>
+      <div>Singing</div>
+      <div>Learning Coding</div>
+    </div>
+  </section>
+
+  <section id="goals">
+    <h2>My Future Goals</h2>
+    <p>I want to become a <strong>software developer</strong> or <strong>game developer</strong> and create amazing apps, games, and tech experiences that help and inspire others.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:jdjames736@gmail.com">jdjames736@gmail.com</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61558502833720" target="_blank">My Facebook Profile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jenish Karki | DEVER — Made with curiosity & code 💻</p>
+  </footer>
+
+  <script>
+    function revealHandles() {
+      const handles = document.getElementById("handles");
+      handles.textContent = "🎮 eFootball: JENISH_28 | FC Mobile: JENGAMER";
+      handles.classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
